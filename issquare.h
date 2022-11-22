@@ -37,16 +37,13 @@ bool ispowerN(int k,int N) {
 }
 //28
 bool isprime(int n) {
-	int i = 2,k=0;
-	while (n/2 >= i) {
+	int i = 2, k = 0;
+	while (n / 2 >= i) {
 		if (n % i == 0) {
 			k++;
 		}
+		i++;
 	}
-	if (k == 0) {
-		return true;
-	}
-	else {
-		return false;
-	}
+	bool m = k == 0;
+	return m;
 }
