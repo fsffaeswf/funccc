@@ -3,6 +3,7 @@
 #include <ctime>
 using namespace std;
 int main() {
+	sfafa
 	const int N = 10;
 	int arr[N], k = 0;
 	srand(time(nullptr));
