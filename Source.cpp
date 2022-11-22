@@ -36,7 +36,7 @@ int main() {
 	}
 	cout << endl << k;*/
 
-	//28 не работает
+	//28 
 	for (int i = 0; i < 10; i++) {
 		if (isprime(arr[i]) == 1) {
 			k++;
